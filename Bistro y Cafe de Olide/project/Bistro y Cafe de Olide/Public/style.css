@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Responsive text */
+  
+  .responsive-text {
+    font-size: 16px;
+    /* This is the default font size */
+    max-width: 500px;
+    /* This is the maximum width of the text */
+    margin: 0 auto;
+    /* Centers the text */
+    overflow: hidden;
+    /* This prevents the text from overflowing */
+    white-space: nowrap;
+    /* This prevents the text from wrapping */
+    text-overflow: ellipsis;
+    /* This displays "..." when the text overflows */
+  }
+  
+  /* Header styling */
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Menu styling */
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Image styling */
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Small image styling */
+  
+  .small-image {
+    float: right;
+    width: 50%;
+  }
+  
+  /* Image container styling */
+  
+  .image-container {
+    float: right;
+    width: 50%;
+  }
